@@ -2,8 +2,43 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 40px;
+    font-size: 45px;
+    margin: 0 auto;
+
+}
+h2{
+    font-size: 35px;
+    margin: 0 auto;
+
+}
+p{
+    display: block;
 }
 .orange-color{
     color: orange;
+}
+.half-width{
+    width: 50%;
+    padding-left: 7%;
+    padding-right: 3%;
+    
+}
+.half-width img{
+    width:100%;    
+}
+
+section{
+    display: flex;
+}
+#content{
+    padding-top:8%;
+
+}
+.link-button{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    background-image: linear-gradient(rgb(255, 32, 32) , rgb(201, 0, 0));
+    border-radius: 10px;
 }
